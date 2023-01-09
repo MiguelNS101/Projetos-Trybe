@@ -1,0 +1,89 @@
+/* .App {
+  text-align: center;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto Mono, monospace;
+}
+
+html {
+  background-image: url("./images/background.png");
+}
+
+h1 {
+  color: whitesmoke;
+  padding: 10px;
+  margin: 10px 10px;
+  border: solid whitesmoke 2px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: whitesmoke;
+  padding-top: 30px;
+  margin: 10px;
+  text-align: center;
+}
+
+h3 {
+  margin: 10px 0px;
+  padding-bottom: 10px;
+  border-bottom: solid black 2px;
+  text-align: center;
+}
+
+.planets {
+  padding-top: 30px;
+  border-top: solid whitesmoke 2px;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.planetCard{
+  background-color: gray;
+  border-radius: 20px;
+  margin: 10px;
+  width: 10%;
+  transition: 0.3s;
+}
+
+.planetCard:hover{
+  color: whitesmoke;
+  width: 30%;
+}
+
+img {
+  width: 90%;
+  margin: 5%;
+}
+
+.missions {
+  padding-top: 30px;
+  border-top: solid whitesmoke 2px;
+  margin: 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.missionCard{
+  width: 40%;
+  margin: 5px;
+  background-color: gray;
+  border-radius: 20px;
+}
+
+.missionCard:hover{
+  color: whitesmoke;
+  transition: 0.3s;
+}
+
+p {
+  margin: 10px;
+  text-align: center;
+}
