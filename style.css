@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto Mono, monospace;
+}
+
+main {
+  margin: 5%;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 3px 3px #3d3d3d;
+}
+
+.tasks {
+  background-color: white;
+}
+
+.selected {
+  background-color: rgb(128, 128, 128);
+}
+
+.completed {
+  text-decoration: line-through;
+}
