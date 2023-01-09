@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Shopping Cart - Miguel Santana</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./helpers/fetchItem.js" defer></script>
+    <script src="./helpers/fetchProducts.js" defer></script>
+    <script src="./helpers/saveCartItems.js" defer></script>
+    <script src="./helpers/getSavedCartItems.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Trybe Shopping</h1>
+    </header>
+    <main>
+      <section class="container">
+        <section class="items">
+          <span class="loading">Carregando</span>
+        </section>
+        <section class="cart">
+          <span class="cart__title">Carrinho de compras</span>
+          <button class="empty-cart">Esvaziar carrinho</button>
+          <hr>
+          <ol class="cart__items"></ol>
+          <section class="price">
+            <span>R$: </span>
+            <span class="total-price">0</span>
+          </section>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <span>Miguel Nascimento Santana | Trybe Turma 17 | Projeto carrinho de compras</span>
+    </footer>
+  </body>
+</html>
