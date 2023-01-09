@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto Mono, monospace;
+}
+
+/* desktop */
+
+@media ( min-width : 701px ) {
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(50, 167, 145);
+  }
+
+  /* logo header */
+  .trybewarts-header-logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 1em;
+  }
+
+  /* inputs header */
+  .trybewarts-login {
+    display: flex;
+    margin: 10px 10px 0 0;
+  }
+
+  /* btn header */
+  .btn-header-submit {
+    padding: 5px 20px;
+    background-color: rgb(72, 40, 117);
+    color: white;
+    border-radius: 15px;
+  }
+
+  .inputEmailPass {
+    border-radius: 5px;
+    padding: 5px 20px;
+  }
+
+  /* h1 header */
+  #trybewarts-header-title {
+    font-size: 1.5rem;
+    color: white;
+    margin: 10px;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* form */
+  #evaluation-form {
+    display: flex;
+    width: 675px;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  /* Imagem a direita */
+  #trybewarts-forms-logo {
+    height: 500px;
+    margin: 10px;
+  }
+
+  footer {
+    background-color: rgb(61, 61, 61);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer span {
+    color: white;
+    font-weight: 600;
+  }
+
+  .formBoxAval {
+    margin: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .formBoxText , .formBoxCheck , .formBoxButton {
+    margin: 5px 30px;
+  }
+
+  .formBoxButton {
+    margin: 5px 30px;
+    text-align: center;
+  }
+
+  .textarea {
+    margin: auto;
+  }
+
+  hr {
+    margin: 2px 30px;
+    width: auto;
+  }
+
+  #submit-btn {
+    width: 80%;
+    height: 25px;
+    margin: 2px auto;
+  }
+
+  .formBoxName {
+    display: flex;
+    margin: 5px 30px;
+  }
+
+  #input-name , #input-lastname {
+    flex-grow: 1;
+    margin: 5px 2px;
+    height: 2em;
+  }
+
+  #evaluation-form h1 {
+    text-align: center;
+    margin: 10px;
+  }
+
+  .formBoxEmailHouse {
+    display: flex;
+    margin: 5px 30px;
+    justify-content: space-between;
+  }
+
+  .houseLabel {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #input-email {
+    flex-grow: 1;
+    margin: 5px 2px;
+    height: 2em;
+  }
+
+  .houseLabel label {
+    margin: 5px 10px;
+  }
+
+  .houseLabel select {
+    margin: 1px;
+    flex-grow: 1;
+    height: 2em;
+  }
+
+  .formFamily {
+    width: 50%;
+  }
+
+  .formLearn {
+    width: 50%;
+  }
+
+  .famLearn {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 30px;
+  }
+
+  .formCenter {
+    display: flex;
+    justify-content: center;
+    border: solid 1px rgb(61, 61, 61);
+    border-radius: 5px;
+    height: auto;
+    margin: 10px;
+    align-items: center;
+    word-break: break-all;
+    padding: 8px;
+  }
+}
+
+/* SmarPhone */
+
+@media ( max-width : 700px ) {
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  textarea {
+    height: 5em;
+    width: 100%;
+  }
+
+  .header {
+    background-color: rgb(50, 167, 145);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .trybewarts-header-logo {
+    width: 5em;
+    margin: 5px;
+  }
+
+  #trybewarts-header-title {
+    color: white;
+    font-size: 3em;
+    margin: 5px;
+  }
+
+  .trybewarts-login {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 5px;
+  }
+
+  .trybewarts-login input {
+    margin: 2px;
+  }
+
+  .trybewarts-login button {
+    margin: 2px;
+  }
+
+  #evaluation-form {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #trybewarts-forms-logo {
+    width: 30%;
+    order: -1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    font-weight: 800;
+  }
+
+  .formBoxName {
+    display: flex;
+    margin: 5px 30px;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+
+  .formBoxAval {
+    margin: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
+
+  .formBoxText , .formBoxCheck , .formBoxButton {
+    margin: 5px 30px;
+  }
+
+  #input-name , #input-lastname {
+    flex-grow: 1;
+    margin: 5px 2px;
+    height: 2em;
+  }
+
+  #evaluation-form h1 {
+    text-align: center;
+    margin: 10px;
+  }
+
+  .formBoxEmailHouse {
+    display: flex;
+    margin: 5px 30px;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+
+  .houseLabel {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #input-email {
+    flex-grow: 1;
+    margin: 5px 2px;
+    height: 2em;
+  }
+
+  .houseLabel label {
+    margin: 5px 10px;
+  }
+
+  .houseLabel select {
+    margin: 1px;
+    flex-grow: 1;
+    height: 2em;
+  }
+
+  .famLearn {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .formLearn , .formFamily {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .formCenter {
+    display: flex;
+    justify-content: center;
+    border: solid 1px rgb(61, 61, 61);
+    border-radius: 5px;
+    height: auto;
+    margin: 10px;
+    align-items: center;
+    word-break: break-all;
+    padding: 8px;
+  }
+}
