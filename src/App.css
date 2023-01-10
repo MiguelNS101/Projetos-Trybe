@@ -1,0 +1,140 @@
+* {
+  font-family: Roboto Mono , monospace;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  background-color: purple;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  color: white;
+  margin: 10px auto;
+  padding: 15px;
+  text-align: center;
+}
+
+header {
+  background-color: purple;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+aside {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+main {
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  flex-grow: 2;
+  padding: 10px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  background-color: purple;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  width: 300px;
+}
+
+.card h4, .card p {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0 , rgba(27, 31, 35, 0.15) 0 0 0 1px;
+  margin: 8px 5px;
+  padding: 3px;
+}
+
+.card img {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0 , rgba(27, 31, 35, 0.15) 0 0 0 1px;
+  margin: 5px;
+}
+
+.card span {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0 , rgba(27, 31, 35, 0.15) 0 0 0 1px;
+  margin: 5px;
+  padding: 3px;
+}
+
+.cardName, .cardDescription, .cardAttr1, .cardAttr2, .cardAttr3, .cardImage, .cardRare {
+  margin: 10px auto;
+  width: 90%;
+}
+
+.cardName input, .cardDescription input, .cardImage input {
+  height: 20px;
+  width: 100%;
+}
+
+.cardAttr1 input, .cardAttr2 input, .cardAttr3 input {
+  height: 20px;
+  width: 100%;
+}
+
+.cardRare select {
+  height: 30px;
+  width: 100%;
+}
+
+.cardTrunfo {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.saveButton {
+  margin: 10px auto;
+  text-align: center;
+  width: 90%;
+}
+
+.saveButton button {
+  height: 30px;
+  text-align: center;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.allCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.delButton {
+  margin: 0 10%;
+  padding: 5px;
+  transition: 0.3s;
+  width: 80%;
+}
+
+button:hover {
+  background-color: purple;
+  border: black 1px solid;
+  color: white;
+}
