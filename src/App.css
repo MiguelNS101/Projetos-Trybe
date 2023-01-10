@@ -1,0 +1,91 @@
+* {
+  font-family: Roboto Mono , monospace;
+}
+
+[ data-theme = 'dark' ] {
+
+  --primary: #fdd835;
+
+  --primary-hover: #ffeb3b;
+
+  --primary-focus: rgba(253, 216, 53, 0.25);
+
+  --primary-inverse: rgba(0, 0, 0, 0.75);
+}
+
+/* footer section */
+footer {
+  align-content: center;
+  background-color: #fdd835;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+}
+
+footer p {
+  color: black;
+  font-weight: 500;
+  margin: auto 10px;
+}
+
+footer span {
+  color: black;
+  font-weight: 900;
+  margin: auto 10px;
+}
+
+.mainBody {
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.mainContainer {
+  flex: 1;
+}
+
+.footer {
+  align-items: center;
+  display: flex;
+}
+
+.mainTitle {
+  text-align: center;
+}
+
+/* main css */
+.numFilter {
+  display: flex;
+}
+
+.numFilter select {
+  margin: 10px;
+}
+
+.numFilter input {
+  margin: 10px;
+}
+
+.numFilter button {
+  margin: 10px;
+}
+
+.filterCard {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.filterCard p {
+  margin: 5px;
+}
+
+.filterCard button {
+  margin: 5px;
+}
+
+.filteredSec {
+  display: flex;
+  margin: 10px;
+}
