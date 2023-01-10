@@ -1,0 +1,279 @@
+* {
+  font-family: Roboto Mono , monospace;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  align-items: center;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.cart-button-link {
+  color: white;
+  display: flex;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.cart-button-img {
+  height: 40px;
+  width: 40px;
+}
+
+.categoryList {
+  border: 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+}
+
+.categoryList label {
+  border-top: black 1px solid;
+  padding: 2px 3px;
+  transition: 0.3s;
+}
+
+.categoryList label:hover {
+  background-color: black;
+  color: white;
+}
+
+.search-section {
+  margin: 10px;
+  text-align: center;
+}
+
+.search-section input {
+  border: 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  height: 25px;
+  width: 60%;
+}
+
+.search-section button {
+  border: 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  height: 25px;
+  margin: 0 10px;
+  padding: 0 5px;
+  transition: 0.3s;
+}
+
+.productInfo-div button {
+  border: 0;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  height: 30px;
+  margin: 10px;
+  transition: 0.3s;
+}
+
+.prodPageCard button {
+  border: 0;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  height: 30px;
+  margin: 10px;
+  padding: 0 5px;
+  transition: 0.3s;
+}
+
+.comentaryCard button {
+  border: 0;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  height: 30px;
+  padding: 0 5px;
+  transition: 0.3s;
+}
+
+.InfoCheckoutCard button {
+  border: 0;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  height: 30px;
+  padding: 0 5px;
+  transition: 0.3s;
+}
+
+.search-section button:hover {
+  background-color: black;
+  color: white;
+}
+
+.productInfo-div button:hover {
+  background-color: black;
+  color: white;
+}
+
+.prodPageCard button:hover {
+  background-color: black;
+  color: white;
+}
+
+.comentaryCard button:hover {
+  background-color: black;
+  color: white;
+}
+
+.InfoCheckoutCard button:hover {
+  background-color: black;
+  color: white;
+}
+
+main {
+  display: flex;
+}
+
+.listProducts {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.productInfo-div {
+  border: 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 250px;
+}
+
+.productInfo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.productInfo h2 {
+  color: black;
+  font-size: 15px;
+  margin: 10px;
+  text-align: center;
+}
+
+.productInfo h4 {
+  color: black;
+  font-size: 15px;
+  margin: 5px;
+  text-align: center;
+}
+
+.productInfo span {
+  color: black;
+  font-size: 15px;
+  margin: 2px;
+  text-align: center;
+}
+
+.productInfo img {
+  width: 80%;
+}
+
+.noSearchMsg {
+  text-align: center;
+}
+
+.prodPageCard {
+  border: 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+.prodPageCard img {
+  width: 200px;
+}
+
+.prodPageCard h2 {
+  color: black;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.prodPageCard h4 {
+  color: black;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.comentaryCard {
+  border: 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.comentaryCard textarea {
+  height: 150px;
+  width: 350px;
+}
+
+.comentSectionCard {
+  border: 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.comentCard {
+  border-top: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.comentName {
+  font-size: 25px;
+}
+
+.comentDesc {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.InfoCheckoutCard {
+  border: 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+
+.InfoCheckout {
+  border: 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  margin: 10px;
+  padding: 10px;
+}
