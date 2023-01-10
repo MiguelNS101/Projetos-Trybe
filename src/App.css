@@ -1,0 +1,84 @@
+* {
+  font-family: Roboto Mono, monospace;
+}
+
+[ data-theme = 'dark' ] {
+
+  --primary: #8e24aa;
+
+  --primary-hover: #7b1fa2;
+
+  --primary-focus: rgba(142, 36, 170, 0.125);
+
+  --primary-inverse: white;
+}
+
+header {
+  align-items: center;
+  background-color: #8e24aa;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin: 10px;
+}
+
+.moneyDiv {
+  align-items: center;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+footer p {
+  color: white;
+  font-weight: 500;
+  margin: auto 10px;
+}
+
+.infoHeaderDiv p {
+  color: white;
+  margin: 10px;
+}
+
+.infoHeaderDiv {
+  align-items: center;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  align-content: center;
+  background-color: #8e24aa;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+}
+
+.mainBody {
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.mainContainer {
+  flex: 1;
+}
+
+footer span {
+  color: white;
+  font-weight: 900;
+  margin: auto 10px;
+}
+
+.footer {
+  align-items: center;
+  display: flex;
+}
+
+.mainTitle {
+  text-align: center;
+}
