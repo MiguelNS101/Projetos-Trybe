@@ -1,0 +1,141 @@
+* {
+  font-family: Roboto Mono , monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.loginPage {
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  margin: 50px auto;
+  padding: 50px;
+  text-align: center;
+  width: 60%;
+}
+
+.loginTitle {
+  margin: 10px auto;
+  text-transform: uppercase;
+}
+
+.imputLoginSection {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border: grey 1px solid;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: purple;
+  border: grey 1px solid;
+  color: white;
+}
+
+header {
+  background-color: purple;
+}
+
+.title-use {
+  align-items: center;
+  background-color: purple;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  border: solid 1px black;
+  color: white;
+  flex-grow: 1;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.titlePage {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.searchSection {
+  padding: 10px;
+  text-align: center;
+}
+
+.albumCard {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  color: black;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 250px;
+}
+
+.albumCard img {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+}
+
+.albumsSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.musicPlayer {
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+.albumMain {
+  align-items: flex-start;
+  display: flex;
+  margin: 10px;
+}
+
+.albumInfo {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  width: 40%;
+}
+
+.albumInfo img {
+  border-radius: 10px;
+  width: 50%;
+}
+
+.albumArtistTitle {
+  margin: 10px;
+}
+
+.FavoriteMain {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
